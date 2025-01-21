@@ -322,6 +322,8 @@ main {
   padding: 60px 60px;
 }
 
+/* CURRICULUM */
+
 .curriculum h1 {
   font-size: 46px;
   line-height: 57.5px;
@@ -342,6 +344,7 @@ main {
   place-content: center;
   flex: 1;
   padding: 60px 0;
+  row-gap: 30px;
 }
 
 .card:first-child {
@@ -425,7 +428,6 @@ main {
   .curriculum {
     row-gap: 20px;
     padding: 40px 40px;
-    overflow-x: hidden;
   }
 
   .curriculum h1 {
@@ -442,6 +444,10 @@ main {
 @media screen and (max-width: 425px) {
   .card-button-container {
     display: none;
+  }
+
+  .curriculum {
+    padding: 40px 150px;
   }
 
   .card {
