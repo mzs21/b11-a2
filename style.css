@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --sky-blue: #13a4dd;
@@ -305,3 +306,133 @@ main {
   }
 }
 /* BANNER */
+
+/* CURRICULUM */
+
+.curriculum {
+  display: grid;
+  place-content: center;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  row-gap: 80px;
+  padding: 60px 60px;
+}
+
+.curriculum h1 {
+  font-size: 46px;
+  line-height: 57.5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 28px;
+}
+
+.card {
+  border-radius: 18.86px;
+  display: grid;
+  place-content: center;
+  flex: 1;
+}
+
+.card:first-child {
+  background: linear-gradient(180deg, #def5ff 0%, #ffffff 20%);
+  border: 0.94px solid #def5ff;
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(180deg, #fff4dc 0%, #ffffff 20%);
+  border: 0.94px solid #fff4dc;
+}
+
+.card:last-child {
+  background: linear-gradient(180deg, #f2e8ff 0%, #ffffff 20%);
+  border: 0.94px solid #f2e8ff;
+}
+
+.card img {
+  place-self: center;
+  margin-top: 60px;
+}
+
+.card img:first-child {
+  height: 126px;
+}
+
+.card h3 {
+  font-size: 24.52px;
+  font-weight: bold;
+  line-height: 30.7px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 15.09px;
+  line-height: 28.3px;
+  color: #808080;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.card h6 {
+  font-size: 15.09px;
+  line-height: 28.3px;
+  font-weight: bold;
+  color: #64c8ff;
+  text-align: center;
+}
+
+.card-button-container {
+  place-self: center;
+  display: flex;
+  column-gap: 10px;
+}
+
+.card-button-container button {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: orange;
+  border: 1px solid orange;
+  display: grid;
+  place-content: center;
+}
+
+.card-button-container svg {
+  fill: white;
+  height: 24px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .curriculum {
+    row-gap: 20px;
+    padding: 40px inherit;
+    overflow-x: hidden;
+  }
+
+  .curriculum h1 {
+    font-size: 26px;
+  }
+
+  .card-container {
+    display: grid;
+    place-content: center;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card-button-container {
+    display: none;
+  }
+}
+/* CURRICULUM */
