@@ -107,4 +107,16 @@ nav button {
   }
 }
 
+@media screen and (max-width: 425px) {
+  nav {
+    gap: 10px 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav {
+    gap: 10px 180px;
+  }
+}
+
 /* NAVBAR */
