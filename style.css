@@ -260,7 +260,7 @@ main {
   .banner {
     display: flex;
     flex-direction: row-reverse;
-    column-gap: 50px;
+    column-gap: 190px;
     padding: 0 60px;
   }
 
@@ -295,6 +295,13 @@ main {
     width: 197px;
     column-gap: 10px;
     padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .banner {
+    margin: 0 auto;
+    column-gap: 500px;
   }
 }
 /* BANNER */
