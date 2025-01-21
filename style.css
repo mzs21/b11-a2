@@ -313,9 +313,8 @@ main {
   background-position: center;
 }
 
-/* CURRICULUM */
-
-.curriculum {
+.curriculum,
+.stories {
   display: grid;
   place-content: center;
   row-gap: 80px;
@@ -467,3 +466,109 @@ main {
   }
 }
 /* CURRICULUM */
+
+/* STORIES */
+
+.stories {
+  background: linear-gradient(0deg, #fea301 0%, #ffffff 70%);
+}
+
+.stories h1 {
+  font-size: 46px;
+  line-height: 57.5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.story-container {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 19px;
+}
+
+.big-story-card {
+  display: grid;
+  place-content: start;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.big-story-card img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.big-story-card h1 {
+  font-size: 24px;
+  line-height: 38.3px;
+  text-align: left;
+  padding: 0 30px;
+}
+
+.big-story-card p,
+.date {
+  font-family: "Raleway", sans-serif;
+  font-size: 15.34px;
+  line-height: 28.8px;
+  font-weight: 500;
+}
+
+.big-story-card p {
+  text-align: left;
+  padding: 30px;
+  color: #666666;
+}
+
+.date {
+  position: relative;
+  border-radius: 47.93px;
+  width: fit-content;
+  padding: 16px 10px;
+  color: white;
+  top: -30px;
+  left: 40px;
+  z-index: 100;
+}
+
+.big-story-card .date {
+  background-color: #3cd8e8;
+}
+
+.small-story-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+}
+
+.small-story-card {
+  background-color: white;
+  width: fit-content;
+  border-radius: 16px;
+}
+
+.small-story-card img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.small-story-card h4 {
+  font-size: 15.34px;
+  line-height: 28.8px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px 40px;
+  margin-top: -10px;
+}
+
+.small-story-card .date {
+  background-color: #95b226;
+  padding: 10px 20px;
+}
+
+.small-story-card:nth-of-type(2) .date {
+  background-color: #5d58f0;
+}
+
+/* Need to fix the background color issue with bg image */
+/* STORIES */
