@@ -331,14 +331,14 @@ main {
   font-weight: bold;
 }
 
-.card-container {
+.curriculum-card-container {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 28px;
 }
 
-.card {
+.curriculum-card {
   border-radius: 18.86px;
   display: grid;
   place-content: center;
@@ -347,43 +347,43 @@ main {
   row-gap: 30px;
 }
 
-.card:first-child {
+.curriculum-card:first-child {
   background: linear-gradient(180deg, #def5ff 0%, #ffffff 20%);
   border: 0.94px solid #def5ff;
 }
 
-.card:nth-child(2) {
+.curriculum-card:nth-child(2) {
   background: linear-gradient(180deg, #fff4dc 0%, #ffffff 20%);
   border: 0.94px solid #fff4dc;
 }
 
-.card:last-child {
+.curriculum-card:last-child {
   background: linear-gradient(180deg, #f2e8ff 0%, #ffffff 20%);
   border: 0.94px solid #f2e8ff;
 }
 
-.card img {
+.curriculum-card img {
   place-self: center;
 }
 
-.card img:first-child {
+.curriculum-card img:first-child {
   height: 126px;
 }
 
-.card h3 {
+.curriculum-card h3 {
   font-size: 24.52px;
   font-weight: bold;
   line-height: 30.7px;
   text-align: center;
 }
 
-.card p,
-.card a {
+.curriculum-card p,
+.curriculum-card a {
   font-size: 15.09px;
   line-height: 28.3px;
 }
 
-.card p {
+.curriculum-card p {
   color: #808080;
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -391,7 +391,7 @@ main {
   padding: 0 20px;
 }
 
-.card a {
+.curriculum-card a {
   font-weight: bold;
   color: #64c8ff;
   text-align: center;
@@ -402,13 +402,13 @@ main {
   }
 }
 
-.card-button-container {
+.curriculum-card-button-container {
   place-self: center;
   display: flex;
   column-gap: 10px;
 }
 
-.card-button-container button {
+.curriculum-card-button-container button {
   width: 60px;
   height: 60px;
   border-radius: 30px;
@@ -418,7 +418,7 @@ main {
   place-content: center;
 }
 
-.card-button-container svg {
+.curriculum-card-button-container svg {
   fill: white;
   height: 24px;
   font-weight: bold;
@@ -434,7 +434,7 @@ main {
     font-size: 26px;
   }
 
-  .card-container {
+  .curriculum-card-container {
     display: grid;
     place-content: center;
     row-gap: 20px;
@@ -442,7 +442,7 @@ main {
 }
 
 @media screen and (max-width: 425px) {
-  .card-button-container {
+  .curriculum-card-button-container {
     display: none;
   }
 
@@ -450,18 +450,18 @@ main {
     padding: 40px 150px;
   }
 
-  .card {
+  .curriculum-card {
     display: grid;
     row-gap: 22px;
   }
 
-  .card h3 {
+  .curriculum-card h3 {
     font-size: 16.06px;
     line-height: 20.8px;
   }
 
-  .card p,
-  .card a {
+  .curriculum-card p,
+  .curriculum-card a {
     font-size: 10.22px;
     line-height: 19.2px;
   }
