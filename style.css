@@ -307,15 +307,18 @@ main {
 }
 /* BANNER */
 
+.bg-img {
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* CURRICULUM */
 
 .curriculum {
   display: grid;
   place-content: center;
-  background-image: url("./assets/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   row-gap: 80px;
   padding: 60px 60px;
 }
@@ -359,7 +362,6 @@ main {
 
 .card img {
   place-self: center;
-  /* margin-top: 60px; */
 }
 
 .card img:first-child {
