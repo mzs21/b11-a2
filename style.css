@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+.font {
+  font-family: "Quicksand", sans-serif;
+  line-height: 30px;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  gap: 10px 186px;
+}
+
+.nav-school-logo {
+  display: flex;
+  gap: 11px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 0 32px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav ul li:first-child {
+  font-weight: bold;
+  color: orange;
+}
+
+nav ul li:nth-child(2) {
+  color: #13a4dd;
+}
+
+nav ul li:nth-child(3) {
+  color: #05d4df;
+}
+
+nav ul li:last-child {
+  color: #5d58ef;
+}
+
+nav button {
+  display: grid;
+  place-content: center;
+  padding: 10px;
+  column-gap: 10px;
+  background-color: orange;
+  color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid orange;
+  font-size: 20px;
+  font-weight: 600;
+  width: 197px;
+  height: 50px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-text,
+  nav ul,
+  nav button {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  nav {
+    display: flex;
+    gap: 10px 500px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .menu-icon {
+    display: none;
+  }
+  nav {
+    display: flex;
+    gap: 10px 60px;
+  }
+}
+
+/* NAVBAR */
