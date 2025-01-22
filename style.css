@@ -46,20 +46,24 @@ nav ul {
   line-height: 30px;
 }
 
-nav ul li:first-child {
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li:first-child a {
   font-weight: bold;
   color: orange;
 }
 
-nav ul li:nth-child(2) {
+nav ul li:nth-child(2) a {
   color: var(--sky-blue);
 }
 
-nav ul li:nth-child(3) {
+nav ul li:nth-child(3) a {
   color: #05d4df;
 }
 
-nav ul li:last-child {
+nav ul li:last-child a {
   color: #5d58ef;
 }
 
