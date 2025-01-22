@@ -320,6 +320,24 @@ main {
 }
 /* BANNER */
 
+/* MARQUEE */
+marquee {
+  margin-top: 40px;
+  padding: 40px 0;
+  font-size: 40px;
+  font-weight: 700;
+  border-top: 1px solid var(--black-hover);
+  border-bottom: 1px solid var(--black-hover);
+}
+
+@media screen and (max-width: 425px) {
+  marquee {
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+/* MARQUEE */
+
 .bg-img {
   background-image: url("./assets/bg.png");
   background-repeat: no-repeat;
