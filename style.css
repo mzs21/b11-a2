@@ -721,3 +721,160 @@ main {
 }
 
 /* STORIES */
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #01acfd;
+  display: grid;
+  place-content: center;
+  grid-template-columns: 50% 25% 25%;
+  margin: 0;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: flex;
+  column-gap: 11px;
+}
+
+.footer-logo img {
+  width: 82.9px;
+  height: auto;
+  margin-left: -10px;
+}
+
+.footer-logo h1 {
+  color: white;
+  font-size: 42.14px;
+  line-height: 39.5px;
+  font-weight: bold;
+}
+
+.footer-fst-col {
+  display: grid;
+  place-content: center;
+  gap: 20px;
+}
+
+.footer-fst-col p {
+  width: 400px;
+  font-size: 20px;
+  color: white;
+  line-height: 28px;
+  font-weight: 400;
+  text-wrap: wrap;
+}
+
+.footer-scnd-col {
+  display: grid;
+  place-content: start;
+  gap: 40px;
+}
+
+.footer-scnd-col h6 {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.footer-scnd-col ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  row-gap: 20px;
+}
+.footer-scnd-col ul li {
+  list-style: none;
+}
+
+.footer-scnd-col ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-third-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer-third-col h1 {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-third-col ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.footer-third-col ul li {
+  list-style: none;
+}
+
+.footer-third-col ul li a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer-logo img {
+    width: 69.23px;
+  }
+
+  .footer-logo h1 {
+    font-size: 35.73px;
+    line-height: 33.5px;
+  }
+
+  .footer-fst-col p {
+    width: 357px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .footer-scnd-col h6 {
+    font-size: 20.35px;
+  }
+
+  .footer-scnd-col ul li a {
+    font-size: 16.96px;
+    font-weight: 500;
+  }
+
+  .footer-third-col h1 {
+    font-size: 22.04px;
+    line-height: 22px;
+  }
+
+  .footer-third-col ul {
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer-fst-col p {
+    width: 300px;
+  }
+}
+
+/* FOOTER */
